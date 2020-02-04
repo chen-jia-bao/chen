@@ -1,0 +1,16 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="true" interval="2000" duration="2000">
+  <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+      <view class="swiper-item {{item}}"></view>
+    </swiper-item>
+  </block>
+</swiper>
+
+ <view class="home_grids">
+  <block wx:for="{{griddata}}" wx:key="item.name">
+   <navigator url="{{item.url}}" class='home_grid'>
+    <image src="{{item.img}}" class="home_icon"></image>
+    <view class="home_grid_text">{{item.name}}</view>
+   </navigator>
+  </block>
+ </view>

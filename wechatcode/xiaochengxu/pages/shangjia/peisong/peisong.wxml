@@ -1,0 +1,12 @@
+<view class="space-between" wx:for="{{list}}" bindtap="xiangq" >
+  <image src="{{item.images}}" style="width:310rpx;height:300rpx; " data-id="{{item.id}}"></image>
+
+  <view class="aaa" >
+    <view style="overflow: hidden"class="ccc">菜品名字：</view>
+    <view style="font-size:30rpx;padding:10rpx;  "class="ccc">菜品价格：</view>
+    <view style="font-size:30rpx;padding:10rpx"class="ccc">配送地址:</view>
+    <view style="font-size:30rpx;padding:10rpx" class="ccc">配送费:</view>
+      <view style="font-size:30rpx;padding:10rpx;  "class="ccc">配送状态：</view>
+
+  </view>
+</view>

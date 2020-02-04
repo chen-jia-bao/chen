@@ -1,0 +1,7 @@
+<view >
+<block>
+  <view>姓名</view>
+  <view>电话</view>
+  <view>地址</view>
+  </block>
+</view>

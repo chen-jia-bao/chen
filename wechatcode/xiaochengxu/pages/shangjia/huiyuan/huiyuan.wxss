@@ -1,0 +1,9 @@
+.aaa{
+  width: 250rpx;
+  border: 2rpx solid #000;
+  border-radius:10rpx; 
+
+}
+.heard{
+    display: flex
+}

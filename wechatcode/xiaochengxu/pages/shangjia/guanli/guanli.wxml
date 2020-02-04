@@ -1,0 +1,10 @@
+<view> 请选择你要上传的菜品图片</view>
+<input type="text" name='Name' class="inputGoods" placeholder="菜品名称" bindinput="Name" />
+<input type="text" name='Jiage' class="inputGoods" placeholder="价格" bindinput="Jiage" />
+<input type="text" name='Peisongfei' class="inputGoods" placeholder="配送费" bindinput="Peisongfei" />
+<input type="text" name='Miaoshu' class="inputGoods" placeholder="菜品描述" bindinput="Miaoshu" />
+ <view>
+  <button style="margin:30rpx;" bindtap="pload_picture">上传菜品图片</button>
+  <button bindtap="fabu">发布</button>
+  <image src="{{tempFilePaths}}" style="width:450rpx; height: 450rpx" />
+</view>

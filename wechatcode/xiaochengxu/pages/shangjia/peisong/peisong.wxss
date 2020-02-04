@@ -1,0 +1,26 @@
+.space-between {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20rpx;
+}
+
+.aaa {
+  float: left;
+  height: 32rpx;
+  width: 55%;
+
+
+}
+
+.bbb {
+  display: flex;
+  height: 32rpx;
+  width: 55%;
+}
+.ccc{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden
+}

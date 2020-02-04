@@ -1,0 +1,8 @@
+<view block wx:for="{{huiyuanList}}" wx:key="index">
+</view>
+<view class="heard">
+  <view>用户名:</view>
+  <view class="aaa">{{item}}</view>
+  <view>手机号</view>
+  <view class="aaa">{{item}}</view>
+</view>
